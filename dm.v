@@ -1,3 +1,5 @@
+/* 模块名：dm(data memory)
+    模块功能：存储数据*/
 module dm(clock, reset, in, WrEn, Addr, out);
 	//输入clock,reset,WrEn
 	input clock, reset, WrEn;
